@@ -58,7 +58,7 @@ window.onload = function() {
       var join_input = document.createElement('input')
       join_input.setAttribute('id', 'join_input')
       join_input.setAttribute('maxlength', 15)
-      join_input.placeholder = 'Ark is Typing '
+      join_input.placeholder = 'Enter User Name'
       join_input.onkeyup  = function(){
         if(join_input.value.length > 0){
           join_button.classList.add('enabled')
