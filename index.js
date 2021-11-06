@@ -1,12 +1,15 @@
 window.onload = function() {
     // Your web app's Firebase configuration
   var firebaseConfig = {
+    
     apiKey: "AIzaSyDeguS_HlcJwxGdjuAGgg72-qPsfZO6eSs",
     authDomain: "web-chat-app-7a02e.firebaseapp.com",
     projectId: "web-chat-app-7a02e",
     storageBucket: "web-chat-app-7a02e.appspot.com",
     messagingSenderId: "586957245560",
-    appId: "1:586957245560:web:6a7cb96e189efda05b318d"
+    appId: "1:586957245560:web:6a7cb96e189efda05b318d",
+
+
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
